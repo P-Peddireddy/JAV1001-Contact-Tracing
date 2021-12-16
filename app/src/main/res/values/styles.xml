@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!--Support Library compatibility-->
+        <item name="actionBarStyle">@style/MyTheme.ActionBarStyle</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyTheme.ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <!--Support Library compatibility-->
+        <item name="titleTextStyle">@style/MyTheme.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="MyTheme.ActionBar.TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyHintStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/mainColor</item>
+    </style>
+</resources>
+
